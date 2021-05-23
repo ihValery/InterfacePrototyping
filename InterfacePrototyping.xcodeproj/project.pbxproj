@@ -58,8 +58,8 @@
 		807B3181265A9D5D00F63953 /* InterfacePrototyping */ = {
 			isa = PBXGroup;
 			children = (
-				807B319A265AB52600F63953 /* Model */,
 				807B3182265A9D5D00F63953 /* InterfacePrototypingApp.swift */,
+				807B319A265AB52600F63953 /* Model */,
 				807B3193265A9DF000F63953 /* ViewModel */,
 				807B3196265AA10200F63953 /* View */,
 				807B3197265AA74100F63953 /* Extension */,

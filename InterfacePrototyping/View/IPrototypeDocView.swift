@@ -9,7 +9,7 @@ import SwiftUI
 
 struct IPrototypeDocView: View {
     //не называть её viewModel, более осмысленным, в нашем случае это будет document (project).
-    private let defaultEmojiSize: CGFloat = 50
+    private let defaultElementSize: CGFloat = 50
     @ObservedObject var document: IPrototypeDoc
     
     var body: some View {
@@ -20,7 +20,7 @@ struct IPrototypeDocView: View {
                 HStack {
                     ForEach(IPrototypeDoc.palette.map { String($0) }, id: \.self) { item in
                         Text(item)
-                            .font(.system(size: defaultEmojiSize))
+                            .font(.system(size: defaultElementSize))
                     }
                 }
                 .padding(.horizontal, 30)
